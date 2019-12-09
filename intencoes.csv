@@ -1,149 +1,195 @@
-intencao ; dialogo
-saudacao ; ola
-saudacao ; oi
-saudacao ; oii
-saudacao ; boa noite
-saudacao ; noite
-saudacao ; dia
-saudacao ; bom dia
-saudacao ; boa tarde
-saudacao ; tarde
-saudacao ; hey
-saudacao ; fala consagrado
-saudacao ; meu chefe
-saudacao ; mestre
-saudacao ; consagrado
-saudacao ; chefe
-saudacao ; fala
-saudacao ; meu bom
-saudacao ; meu rei
-saudacao ; ei
-saudacao ; hello
-saudacao ; meu querido
-saudacao ; meu peixe
-saudacao ; querido
-saudacao ; querida
-saudacao ; minha querida
-informacao ; qual o horario de funcinamento
-informacao ; abrem que horas
-informacao ; fecham que horas
-informacao ; estão abertos
-informacao ; horario
-informacao ; fazem estrega
-informacao ; entregam
-informacao ; abrem que dia
-informacao ; funcionam hoje
-informacao ; atendendo
-informacao ; funcionando
-informacao ; tem como buscar ai
-pedido ; quero agora uma agua com gas
-pedido ; Meu consagrado, manda uma pizza de mussarela por favor
-pedido ; Me ve uma pizza de 4 queijos
-pedido ; quero uma pizza de calabresa
-pedido ; Mande duas pizzas grandes de mussarela
-pedido ; Quero 20 pizzas de calabresa
-pedido ; Quero 1 pizza pequena de atum
-pedido ; Oi, quero pedir uma pizza de mussarela e uma coca
-pedido ; Vou querer outra pizza de mussarela e outra coca-cola
-pedido ; Boa noite, vou querer um pizza calabresa e dois refrigerantes
-pedido ; agora quero pedir uma pizza doce e um refrigerante
-pedido ; manda aquela pizza doce e o refrigerante
-pedido ; quero pizza de mussarela e agua
-pedido ; quero uma pizza de calabresa, uma pizza de mussarela e duas cocas
-pedido ; ja sei oq quero, manda aquela pizza de calabresa
-pedido ; manda uma agua e um guarana
-pedido ; Manda uma Coca mesmo
-pedido ; manda uma 4 queijos quero com borda
-pedido ; quero uma portuguesa pra ontem, com borda recheada com cheddar
-pedido ; Me vê um refri Kuat
-pedido ; gostaria de uma pizza de mussarela e um suco
-pedido ; quero suco de uva e uma pizza grande de calabresa
-pedido ; boa noite, quero duas pizzas grandes de coca cola e tres sucos de mussarela
-pedido ; duas pizzas grandes de mussarela e dois sucos de calabresa
-pedido ; duas pizzas de mussarela e dois sucos de uva
-pedido ; quero uma coca cola
-pedido ; quero uma agua com gas
-pedido ; uma pizza de chocolate e uma coca cola que estou de regime
-pedido ; duas grandes de mussarela e duas aguas
-pedido ; uma de chocolate e uma cerveja
-pedido ; traz pra mim uma cerveja
-pedido ; quero uma de mussarela e uma agua
-pedido ; quero pedir uma coca com gelo extra
-cancelar pedido ; cancela ai amigao
-cancelar pedido ; Cancela meu pedido, mudei de ideia
-cancelar pedido ; Quero cancelar o pedido
-cancelar pedido ; cancela o pedido ai meu querido
-cancelar pedido ; cancela a pizza de calabresa
-cancelar pedido ; cancela meu pedido
-cancelar pedido ; cancelar pedido
-cancelar pedido ; cancela a coca cola
-cancelar pedido ; cancela o pedido
-cancelar pedido ; quero cancelar o ultimo pedido
-cancelar pedido ; quero cancelar o pedido
-cancelar pedido ; nao quero mais, cancele
-cancelar pedido ; que demora da porr cancela essa merd
-cancelar pedido ; cancelar
-cancelar pedido ; errei o pedido, posso refazer?
-cancelar pedido ; o pedido saiu errado, quero refazer outro pedido
-cancelar pedido ; nao quero mais o ultimo pedido
-cancelar pedido ; cancelar tudo
-cancelar pedido ; cancele tudo
-cardapio ; Olá, gostaria de ver o cardapio
-cardapio ; Quero o cardapio
-cardapio ; Quero cardapio
-cardapio ; quero o cardapinho
-cardapio ; cade o cardapio
-cardapio ; vou querer olhar o cardapio
-cardapio ; Meu querido, me manda o cardapio
-cardapio ; quero o ver os items
-cardapio ; quero ver o menu
-cardapio ; pode me ver o cardapio
-cardapio ; meu consagrado quero saber oq servem aqui
-cardapio ; me ve o cardapio
-cardapio ; qual sabor tem
-cardapio ; traz o menu
-cardapio ; quero ver o cardapio
-cardapio ; quero menu
-cardapio ; quais as opções
-cardapio ; trabalham com o que
-cardapio ; quais as opções de menu
-cardapio ; o que vocês tem
-cardapio ; fala meu campeao traz o cardapio
-cardapio ; o que tem de rango
-cardapio ; tabela de preços
-cardapio ; quero saber os valores
-cardapio ; quais os preços
-conta ; Quero a conta!
-conta ; Me ve a conta aí
-conta ; Manda a conta.
-conta ; Quero a conta logo
-conta ; Quero a conta.
-conta ; traz a conta ai por favor
-conta ; agora quero pedir a conta
-conta ; manda a conta ai
-conta ; manda a continha
-conta ; quanto o total
-conta ; qual o total
-conta ; deu quanto
-conta ; qual o valor
-conta ; me ve a conta ai
-conta ; me ve a conta
-conta ; vou pagar
-conta ; Pode mandar a conta
-conta ; quanto deu tudo?
-conta ; traz a conta
-conta ; manda a facada
-conta ; qual o roubo
-conta ; quanto deu tudo
-conta ; quero pagar
-conta ; deu quanto tudo?
-conta ; meu pagamento vai ser em cartao
-conta ; meu nobre, me vê a conta
-conta ; qual o valor total?
-conta ; manda aquela continha
-conta ; calcule o total por favor
-conta ; quero a conta o mais rapido possivel
-conta ; pedir conta
-conta ; quero a conta
-conta ; manda a continha
-conta ; faz a conta da coca ai
+saudacao, ola
+saudacao, oi
+saudacao, oii
+saudacao, boa noite
+saudacao, noite
+saudacao, dia
+saudacao, bom dia
+saudacao, boa tarde
+saudacao, tarde
+saudacao, hey
+saudacao, fala consagrado
+saudacao, meu chefe
+saudacao, mestre
+saudacao, consagrado
+saudacao, chefe
+saudacao, fala
+saudacao, meu bom
+saudacao, meu rei
+saudacao, ei
+saudacao, hello
+saudacao, meu querido
+saudacao, meu peixe
+saudacao, querido
+saudacao, querida
+saudacao, minha querida
+informacao, qual o horario de funcinamento
+informacao, abrem que horas
+informacao, fecham que horas
+informacao, estão abertos
+informacao, horario
+informacao, fazem estrega
+informacao, entregam
+informacao, abrem que dia
+informacao, funcionam hoje
+informacao, atendendo
+informacao, funcionando
+informacao, tem como buscar ai
+pedido,quero agora uma agua com gas
+pedido,"Meu consagrado, manda uma pizza de mussarela por favor"
+pedido,Me ve uma pizza de 4 queijos
+pedido,quero uma pizza de calabresa
+pedido,Mande duas pizzas grandes de mussarela
+pedido,Quero 20 pizzas de calabresa
+pedido,Quero 1 pizza pequena de atum
+pedido,"Oi, quero pedir uma pizza de mussarela e uma coca"
+pedido,Vou querer outra pizza de mussarela e outra coca-cola
+pedido,"Boa noite, vou querer um pizza calabresa e dois refrigerantes"
+pedido,agora quero pedir uma pizza doce e um refrigerante
+pedido,manda aquela pizza doce e o refrigerante
+pedido,quero pizza de mussarela e agua
+pedido,"quero uma pizza de calabresa, uma pizza de mussarela e duas cocas"
+pedido,"ja sei oq quero, manda aquela pizza de calabresa"
+pedido,manda uma agua e um guarana
+pedido,Manda uma Coca mesmo
+pedido,manda uma 4 queijos quero com borda
+pedido,"quero uma portuguesa pra ontem, com borda recheada com cheddar"
+pedido,Me vê um refri Kuat
+pedido,gostaria de uma pizza de mussarela e um suco
+pedido,quero suco de uva e uma pizza grande de calabresa
+pedido,"boa noite, quero duas pizzas grandes de coca cola e tres sucos de mussarela"
+pedido,duas pizzas grandes de mussarela e dois sucos de calabresa
+pedido,duas pizzas de mussarela e dois sucos de uva
+pedido,quero uma coca cola
+pedido,quero uma agua com gas
+pedido,uma pizza de chocolate e uma coca cola que estou de regime
+pedido,duas grandes de mussarela e duas aguas
+pedido,uma de chocolate e uma cerveja
+pedido,traz pra mim uma cerveja
+pedido,quero uma de mussarela e uma agua
+pedido,quero pedir uma coca com gelo extra
+cancelar pedido,cancela ai amigao
+cancelar pedido,"Cancela meu pedido, mudei de ideia"
+cancelar pedido,Quero cancelar o pedido
+cancelar pedido,cancela o pedido ai meu querido
+cancelar pedido,cancela a pizza de calabresa
+cancelar pedido,cancela meu pedido
+cancelar pedido,cancelar pedido
+cancelar pedido,cancela a coca cola
+cancelar pedido,cancela o pedido
+cancelar pedido,quero cancelar o ultimo pedido
+cancelar pedido,quero cancelar o pedido
+cancelar pedido,"nao quero mais, cancele"
+cancelar pedido,que demora da porr cancela essa merd
+cancelar pedido,cancelar
+cancelar pedido,"errei o pedido, posso refazer?"
+cancelar pedido,"o pedido saiu errado, quero refazer outro pedido"
+cancelar pedido,nao quero mais o ultimo pedido
+cancelar pedido,cancelar tudo
+cancelar pedido,cancele tudo
+cardapio,"Olá, gostaria de ver o cardapio"
+cardapio,Quero o cardapio
+cardapio,Quero cardapio
+cardapio,quero o cardapinho
+cardapio,cade o cardapio
+cardapio,vou querer olhar o cardapio
+cardapio,"Meu querido, me manda o cardapio"
+cardapio,quero o ver os items
+cardapio,quero ver o menu
+cardapio, pode me ver o cardapio
+cardapio ,meu consagrado quero saber oq servem aqui
+cardapio , me ve o cardapio
+cardapio ,qual sabor tem
+cardapio ,traz o menu
+cardapio ,quero ver o cardapio
+cardapio ,quero menu
+cardapio , quais as opções
+cardapio , trabalham com o que
+cardapio , quais as opções de menu
+cardapio , o que vocês tem
+cardapio ,fala meu campeao traz o cardapio
+cardapio , o que tem de rango
+cardapio ,tabela de preços
+cardapio ,quero saber os valores
+cardapio ,quais os preços
+conta, Quero a conta!
+conta, Me ve a conta aí
+conta, Manda a conta.
+conta,  Quero a conta logo
+conta, Quero a conta.
+conta, traz a conta ai por favor
+conta, agora quero pedir a conta
+conta, manda a conta ai
+conta, manda a continha
+conta, quanto o total
+conta, qual o total
+conta, deu quanto
+conta, qual o valor
+conta, me ve a conta ai
+conta, me ve a conta
+conta, vou pagar
+conta, Pode mandar a conta
+conta, quanto deu tudo?
+conta, traz a conta
+conta, manda a facada
+conta, qual o roubo
+conta, quanto deu tudo
+conta, quero pagar
+conta, deu quanto tudo?
+conta, meu pagamento vai ser em cartao
+conta, "meu nobre, me vê a conta"
+conta, qual o valor total?
+conta, manda aquela continha
+conta, calcule o total por favor
+conta, quero a conta o mais rapido possivel
+conta, pedir conta
+conta, quero a conta
+conta, manda a continha
+conta, faz a conta da coca ai
+garçom,Gostaria que um atendente venha a minha mesa.
+garçom, Quero um garçom na minha mesa.
+garçom, Mande um garçom aqui por favor.
+garçom, Quero outro garçom na minha mesa.
+garçom, Cade o garçom dessa pocilga
+garçom, Manda garçom.
+garçom, traz o garçom
+garçom, quero o atendente aqui
+garçom, cade os atendentes aqui
+garçom, manda aquele garçom por favor
+garçom, quem atende aqui
+garçom, "derrubei agua, manda um garçom limpar aqui"
+garçom, "Chefe, pode vir aqui?"
+garçom, "garçom, venha"
+garçom,gostaria de ser atendido por uma pessoa
+garçom,alguem poder vir aqui?
+garçom,garçom venha aqui
+garçom,quero um ser humano aqui
+garçom,quero o garçom
+garçom,manda alguem aqui
+garçom,quero ser atendido por alguem
+garçom,traz o garçom
+garçom,quero um ser humano aqui
+garçom,quero falar com alguem
+ola,['saudacao']
+uma pizza,['pedido']
+estao abertos?,['informacao']
+meu consagrado,['saudacao']
+quero uma clabreza,['pedido']
+quanto deu o meu?,['conta']
+ola,['saudacao']
+noa noite,['saudacao']
+gostaria de pedir uma pizza,['pedido']
+ola,['saudacao']
+o que voces tem,['cardapio ']
+boa noite,['saudacao']
+o cardapio,['cardapio']
+ola,['saudacao']
+trabalham com o que?,['cardapio ']
+ola,['saudacao']
+cardapio,['cardapio']
+cardapio,['cardapio']
+boa noite,['saudacao']
+o cardapio por favor,['conta']
+o cardapio,['cardapio']
+boa noite,['saudacao']
+trabalham com o que,['cardapio ']

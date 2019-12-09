@@ -3,24 +3,30 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import LeaveOneOut
-from sklearn.model_selection import KFold
 from sklearn.metrics import precision_score
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import recall_score
-from search import search
+import csv
 
 
 import pandas as pd
 import numpy as np
 
+modelScore = dict()
+
+vectorizer = TfidfVectorizer(sublinear_tf=True, max_df=0.5, strip_accents='unicode')
+
 
 def getData():
     vectorizer = TfidfVectorizer(sublinear_tf=True, max_df=0.5, strip_accents='unicode')
-    data = pd.read_csv('intencoes.csv', delimiter=' ; ', engine='python')
 
-    corpus = data[["dialogo"]].values
-    x = vectorizer.fit_transform(corpus.ravel())
-    y = data[["intencao"]].values.ravel()
+    data = csv.reader(open('intencoes.csv', 'r'))
+    corpus, y = [], []
+    for row in data:
+        corpus.append(row[1])
+        y.append(row[0])
+
+    x = vectorizer.fit_transform(corpus)
 
     return x, y
 
@@ -41,6 +47,7 @@ def knn(n):
 
         model.fit(x_train, y_train)
         y_pred.extend(model.predict(x_test))
+
 
     print("KNN com N =", n)
     print("y: ")
@@ -71,10 +78,9 @@ def knn(n):
 
 
 def DecisionTree():
-    from sklearn import tree
     print("Decision Tree")
     x, y = getData()
-    clf = tree.DecisionTreeClassifier()
+    clf = DecisionTreeClassifier()
 
     #tree.plot_tree(clf.fit(x, y))
 
