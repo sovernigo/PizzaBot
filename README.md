@@ -1,7 +1,7 @@
 # PizzaBot
 Trabalho desenvolvido por
   Felipe Sovernigo
-  Caio Laporte
+  Caio Lacorte
   
 O dataset foi construido com base em intenção, sentença
  
